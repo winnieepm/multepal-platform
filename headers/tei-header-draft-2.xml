@@ -123,9 +123,28 @@
         
         <profileDesc>
             <langUsage>
-                <language ident="spa">Spanish</language>
                 <language ident="quc">K'iche'</language>
+                <language ident="spa">Spanish</language>
             </langUsage>
         </profileDesc>
+        <!-- 
+            MISSING TAGS (INCLUDED IN ESCOLIOS HEADER)
+            <classDecl>
+                Goes inside the encodingDesc
+                <taxonomy>
+                    <category></category>
+                </taxonomy>
+            </classDecl>
+
+            <xenoData>
+                Not TEI. 
+                <p>Describe use of TK here.</p>
+            </xenoData>
+
+            <revisionDesc>
+                <change></change>
+                <change></change>
+            </revisionDesc>
+         -->
     </teiHeader>
 </TEI>
