@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="spa" level="m">Escolios a la historia de el origen de los Indios
+                </title>
+                <!-- What should be the specific title for this section given that we are not encoding the entirety  of the Ximénez manuscript? -->
+                <!-- We decided to use CTS to handle the declaration of a namespace and persistent title. Make sure that is in place. -->
+
+                <author xml:lang="spa">Ximénez, Francisco</author>
+                <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' (Madres y padres de la palabra ante los Kaweq.))</author>
+                <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' (Madres y padres de la palabra ante los Nijayib’)</author>
+                <author xml:lang="quc">Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (Madres y padres de la palabra ante el AJaw  K’iche’)</author>
+                <!-- add seg / span for quc lang (Winnie)-->
+
+                <funder>3 Cavaliers Program</funder>
+
+                <sponsor>University of Virginia</sponsor>
+                <sponsor xml:lang="spa">Universidad de Oriente</sponsor>
+                <sponsor xml:lang="spa">Universidad Rafael Landívar</sponsor>
+                <!-- look more into it -->
+           
+                <respStmt>
+                    <resp>Lead Researchers, University of Virginia</resp>
+                    <orgName ref="http://multepal.spanitalport.virginia.edu/">Multepal</orgName>
+                    <persName role="principal">Allison Bigelow</persName>
+                    <persName role="principal">Rafael Alvarado</persName>
+                    <!-- What's the difference between <persName role="principal"> and <principal>? -->
+                    <!-- Lucie will check -->
+                </respStmt>
+
+                <!-- how many of these do we need?
+                    - U de Oriente
+                    - U Rafael Landívar  
+                    - Encoding team (Aldo, Catherine, Summer, Winnie)
+                    - Volunteer students from  courses (look into forthcoming publication)
+                 -->
+                <respStmt>
+                    <resp>Responsibility Description</resp>
+                    <persName>
+                    <forename></forename>
+                    <surname></surname>
+                    <orgName></orgName>
+                    </persName>
+                </respStmt>
+                <!-- this model is more common for individual contributors (Lucie) -->
+            </titleStmt>
+
+            <publicationStmt> 
+                <authority>University of Virginia</authority>
+                <!-- Should we add U of Oriente and URF? -->
+
+                <idno type="filename">xom-all-flat-mod-pnums.xml</idno> 
+
+                <availability>
+                    <license><!-- Still being resolved --></license>
+                </availability>
+
+                <date> Spring 2017 </date>
+                <!-- Should we include a <creation></creation> for the name of the course where the encoding was created? -->
+                
+                <publisher>University of Virginia</publisher>
+                <pubPlace>Virginia, USA</pubPlace>
+            </publicationStmt>
+            <!-- not published yet, move this info into encodingDesc -->
+            <!-- publication statement should be OSU & Newberry website of origin
+            look into DublinCore -->
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Ximénez, Francisco</author>
+                        <!-- should k'iche' authors be included here, too? -->
+                        <!-- good place for a TK tag -->
+
+                        <title xml:lang="spa">Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil,v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
+
+                        <imprint>
+                            <publisher>The Newberry Library</publisher>
+                            <!-- <publisher>Le winaq</publisher> -->
+
+                            <pubPlace>Chicago, Illinois, USA</pubPlace>
+                            <!-- <pubPlace>Iximulew</pubPlace> -->
+
+                            <date>1701-1703</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc> 
+        </fileDesc>
+        
+        <encodingDesc>
+                <editorialDecl>
+                    <p>This text is the Castellano column of the Ximenez edition of the Popol Wuj. Because of nature of CTS's unique identifiers
+                    us to separate it from the K'iche' column, which is stored as another "work" of the text according to CTS structure.</p>
+                    <!-- encodingDesc: Describes the relationship between an electronic text and the source or sources  from which it was derived. It allows for detailed description of whether (or how) the text was normalized during transcription, how the encoder resolved ambiguities in the source, what levels of encoding or analysis were applied, and similar matters. The TEI elements used to encode the encoding description are described in section 2.3 The Encoding Description below. -->
+                </editorialDecl>
+                <!-- this should change for the pnums file -->
+
+                <p>The following text is encoded in accordance with TEI standards and with the CTS/CITE Architecture</p>
+
+                <refsDecl n="CTS">
+                    <cRefPattern n="paragraph" 
+                                matchPattern="(\w+)" 
+                                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                        <p>pointer pattern extracting paragraph</p>
+                    </cRefPattern>
+                </refsDecl>
+                <refsDecl>
+                    <refState unit="paragraph"/>
+                </refsDecl>
+            
+            <editorialDecl> 
+                <p></p>
+            </editorialDecl>
+            <!-- how should we include -->
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="spa">Spanish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+</TEI>
