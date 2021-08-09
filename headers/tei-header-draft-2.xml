@@ -40,6 +40,7 @@
                 </respStmt>
 
                 <respStmt>
+                    <!-- Needs to be refined. -->
                     <resp>TEI Encoder</resp>
 
                     <persName full="yes">Aldo Barriente</persName>
