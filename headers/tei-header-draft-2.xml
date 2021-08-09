@@ -7,9 +7,11 @@
             <titleStmt>
                 <title xml:lang="spa" level="m">Escolios a la historia de el origen de los Indios
                 </title>
-                 <!-- What should be the specific title for this section given that we are not encoding the entirety  of the Ximénez manuscript? -->
-                <!-- We decided to use CTS to handle the declaration of a namespace and persistent title. Make sure that is in place. -->
-
+                 <!-- What should be the specific title? 
+                 
+                 We are not encoding the entirety of the Ximénez manuscript.
+                -->
+                
                 <author xml:lang="spa">Ximénez, Francisco</author>
                 <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' <seg xml:lang="spa">(Madres y padres de la palabra ante los Kaweq.)</seg></author>
                 <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' <seg xml:lang="spa">(Madres y padres de la palabra ante los Nijayib’)</seg></author>
@@ -18,59 +20,78 @@
                 <funder>UVA 3 Cavaliers Rapid Seed Grant Program and the UVA Strategic Investment Fund</funder>
 
                 <sponsor ref="http://multepal.spanitalport.virginia.edu/" xml:lang="quc">Multepal</sponsor>
+
+<!-- LIST OF RESPSTMTs
+   √ 1. original encoder 
+   √ 2. editor(s)
+    3. project leaders
+        - PIs (UVA)
+    4. intellectual contributors for content & annotations
+        - PIs (UVA)
+        - Volunteer students from  courses (look into forthcoming publication)
+ -->
+
+                <respStmt>
+                    <resp>TEI Encoder</resp>
+
+                    <persName full="yes">Aldo Barriente</persName>
+
+                    <orgName>Undergraduate Student, University of Virginia</orgName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Graduate and undergraduate students in charge of the first round of TEI markup for the manuscript.</resp>
+
+                    <persName full="yes">Catherine Addington</persName>
+                    <persName>Karina Baptista</persName>
+                    <persName>Nicole Bonino</persName>
+                    <persName>María Esparza Rodríguez</persName>
+                    <persName>Michelet McClean Estrada</persName>
+                    <persName>Will Norton</persName>
+                    <persName>Dave Prine</persName>
+                    <persName>Matthew Richey</persName>
+                    <persName>Benjamín Romero Salado</persName>
+
+                    <orgName>Course SPAN7559/4995 in the Spanish, Italian, and Portuguese Department at the University of Virginia</orgName>
+
+                    <date>Spring 2017</date>
+                </respStmt>
+                    
+                
            
                 <respStmt>
-                    <resp>Lead Researchers</resp>
+                    <resp>TEI Editors</resp>
+                    
+                    <persName full="yes" role="principal">Rafael Alvarado</persName>
+                    <persName full="yes" role="principal">Allison Bigelow</persName>
+                    <persName full="yes" xml:lang="spa">Winnie Pérez Martínez</persName>
+
                     <orgName>University of Virginia</orgName>
-                    <persName role="principal">Allison Bigelow</persName>
-                    <persName role="principal">Rafael Alvarado</persName>
-                    <!-- We're not sure what's the difference betwen <persName role="principal"> and using the <principal> tag. Lucie will look into it. -->
+
+                    <note>
+                        <p>Discussed and established guidelines for using TEI to encode this particular text. Selected which elements were best suited to the text's needs and produced a TEI header accordingly.</p>
+                    </note>
                 </respStmt>
 
                 <respStmt>
-                    <resp></resp>
-                    <orgName xml:lang="spa">Universidad de Oriente</orgName>
-                
+                    <resp>Project Leaders</resp>
+
+                    <persName role="principal" full="yes">Rafael Alvarado</persName>
+                    <persName role="principal" full="yes">Allison Bigelow</persName>                    
+                    <orgName>University of Virginia</orgName>
                 </respStmt>
 
                 <respStmt>
-                    <resp></resp>
-                    <orgName xml:lang="spa">Universidad Rafael Landívar</orgName>
+                    <resp>Annotation, Content, and Topics Collaborators</resp>
+                    <persName></persName>
+                    <persName></persName>
+                    <persName></persName>
 
-                </respStmt>
-
-                <!-- How many respStmt elements do we need?
-                    - Encoding team (Aldo, Catherine, Summer, Winnie). Unpack this.
-                    - Volunteer students from  courses (look into forthcoming publication)
-                 -->
-                <respStmt>
-                    <!-- common model for individual contributors -->
-                    <resp>Responsibility Description</resp>
-                    <persName>
-                    <forename></forename>
-                    <surname></surname>
-                    <orgName></orgName>
-                    </persName>
+                    <note>
+                        <p></p>
+                    </note>
                 </respStmt>
             </titleStmt>
-
-            <publicationStmt> 
-                <authority>University of Virginia</authority>
-
-                <idno type="filename">xom-all-flat-mod-pnums.xml</idno> 
-
-                <availability>
-                    <license><!-- Still being resolved --></license>
-                </availability>
-
-                <date> Spring 2017 </date>
-                <!-- Should we include a <creation></creation> for the name of the course where the encoding was created? -->
-                
-                <publisher>University of Virginia</publisher>
-                <pubPlace>Virginia, USA</pubPlace>
-            </publicationStmt>
-            <!-- Eliminate. Move information into encodindDesc element. -->
-            <!-- Team had doubts about the exact source for the file here encoded. Should it be OSU or Newberry website? Question for Allison and Raf. -->
             
             <sourceDesc>
                 <biblStruct>
@@ -96,11 +117,10 @@
         
         <encodingDesc>
                 <editorialDecl>
-                    <p>The encoding is based on the [edition] of the text known as the Popol Wuj. It allows for line by line search and provides additional, crowdsourced annotations that include the realm of topics present in the narrative. Special characters are maintained in the main text, but transformed into roman alphabet characters to increase searchability of content.</p>
-
-                    <!-- need to talk to aldo abt details -->
-
                     <!-- encodingDesc: Describes the relationship between an electronic text and the source or sources  from which it was derived. It allows for detailed description of whether (or how) the text was normalized during transcription, how the encoder resolved ambiguities in the source, what levels of encoding or analysis were applied, and similar matters. The TEI elements used to encode the encoding description are described in section 2.3 The Encoding Description below. -->
+                    <p part="N">The encoding is based on the Newberry Library's VAULT Ayer MS 1515, volume 2, Escolios Folio 01, Side 1. Based on the facsimiles provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at https://library.osu.edu/projects/popolwujs.</p>
+
+                    <p> It allows for line by line search and provides additional, crowdsourced annotations that include the realm of topics present in the narrative. Special characters are maintained in the main text, but transformed into roman alphabet characters to increase searchability of content.</p>
                 </editorialDecl>
 
                 <editorialDecl> 
@@ -127,6 +147,8 @@
                 <language ident="spa">Spanish</language>
             </langUsage>
         </profileDesc>
+
+
         <!-- 
             MISSING TAGS (INCLUDED IN ESCOLIOS HEADER)
             <classDecl>
