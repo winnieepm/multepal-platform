@@ -5,17 +5,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="spa" level="m">Escolios a la historia de el origen de los Indios
+                <title key="xom-escolios" xml:lang="spa">Escolios a la historia de el origen de los Indios
                 </title>
                  <!-- What should be the specific title? 
                  
                  We are not encoding the entirety of the Ximénez manuscript.
                 -->
-                
-                <author xml:lang="spa">Ximénez, Francisco</author>
-                <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' <seg xml:lang="spa">(Madres y padres de la palabra ante los Kaweq.)</seg></author>
-                <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' <seg xml:lang="spa">(Madres y padres de la palabra ante los Nijayib’)</seg></author>
-                <author xml:lang="quc">Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj <seg xml:lang="spa">(Madres y padres de la palabra ante el AJaw  K’iche’)</seg></author>
 
                 <funder>UVA 3 Cavaliers Rapid Seed Grant Program and the UVA Strategic Investment Fund</funder>
 
@@ -80,11 +75,16 @@
             <sourceDesc>
                 <biblStruct>
                     <monogr>
-                        <author>Ximénez, Francisco</author>
+                        <author xml:lang="spa">Ximénez, Francisco</author>
+                        <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' <seg xml:lang="spa">(Madres y padres de la palabra ante los Kaweq.)</seg></author>
+                        <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' <seg xml:lang="spa">(Madres y padres de la palabra ante los Nijayib’)</seg></author>
+                        <author xml:lang="quc">Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj <seg xml:lang="spa">(Madres y padres de la palabra ante el AJaw  K’iche’)</seg></author>
+
                         <!-- Good place for a TK tag. It would discuss the three k'iche' authors and:
                             <publisher>Le winaq</publisher>
                             <pubPlace>Iximulew</pubPlace>
                          -->
+
                         <title xml:lang="spa">Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil,v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
 
                         <imprint>
@@ -107,7 +107,7 @@
                     <!-- BRING FROM ESCOLIOS HEADER -->
                     <!-- encodingDesc: Describes the relationship between an electronic text and the source or sources  from which it was derived. It allows for detailed description of whether (or how) the text was normalized during transcription, how the encoder resolved ambiguities in the source, what levels of encoding or analysis were applied, and similar matters. The TEI elements used to encode the encoding description are described in section 2.3 The Encoding Description below. -->
 
-                    <p> It allows for line by line search and provides additional, crowdsourced annotations that include the realm of topics present in the narrative. Special characters are maintained in the main text, but transformed into roman alphabet characters to increase searchability of content.</p>
+                    <p>It allows for line by line search and provides additional, crowdsourced annotations that include the realm of topics present in the narrative. Special characters are maintained in the main text, but transformed into roman alphabet characters to increase searchability of content.</p>
                 </editorialDecl>
 
                 <projectDesc>
