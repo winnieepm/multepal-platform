@@ -16,6 +16,7 @@ h1 {
 
 div.body {
     padding: .5em;
+    color: white;
 }
 
 img {
@@ -36,4 +37,14 @@ p {
 
 .after-heading {
     margin-top: 3%;
+}
+.container {
+    overflow: hidden;
+}
+.img-fluid {
+    max-width: 90%;
+}
+
+.figure-caption {
+    color: black;
 }
