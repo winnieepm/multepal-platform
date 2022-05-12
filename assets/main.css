@@ -3,17 +3,37 @@ body {
     background-repeat: repeat;
     background-size: 300px;
     font-family: Verdana, Helvetica, sans-serif;
+    margin: 3%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Play', monospace, Courier;
 }
 
 h1 {
-    font-size: 5em;
-    margin: 1%;
+    font-size: 4em;
+}
+
+div.body {
+    padding: .5em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    min-width: 387.35px;
+    padding: .2em;
+  }
+
+p {
+    /* background-color: rgba(124, 113, 227, 0.84); */
+    padding: .2em .5em .2em .5em;
 }
 
 #home {
     text-align: right;
+}
+
+.after-heading {
+    margin-top: 3%;
 }
