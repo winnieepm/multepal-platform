@@ -55,31 +55,63 @@
                 For this step, I used curved lines to represent the idea of jumps, as in jumping through time. The vertical vs. horizontal timeline alignment intended to change the angle of perspective and probe the stability of the twisted form that surges from the years' connection. <br/> In <i>Figure 1.</i>, I opted for lines that transcended or trespassed the year number entirely whereas in <i>Figure 2.</i> the lines bounce off the same invisible vertical axis formed by the years without crossing it. <br/> There is no logical reasoning guiding my decision to orient the curved lines differently for each drawing. Rather, I am merely guided by the curiosity of finding a new shape that makes sense for the narrrarive timeline. What is a shape that makes sense? One that elicits new insights for my understanding of the text. 
               </p>
               <p>
-                Insights: From this drawings I identify the urge to suggest that the novel is a closed narrative circle because its earliest event occurs in 2018 and its last chapter returns to this very moment. However, 2018 does not mark the narrative beginning of <i>Caja de fractales</i>, but 2028 does. In this scenario, the return to 2018 flags it as an important narrative instance but not inherently its beginning. Its import prevents it from ocuppying the position of origin, at least as the text initially indicates. 
+                Preliminar Insights: From this drawings I identify the urge to suggest that the novel is a closed narrative circle because its earliest event occurs in 2018 and its last chapter returns to this very moment. However, 2018 does not mark the narrative beginning of <i>Caja de fractales</i>, but 2028 does. In this scenario, the return to 2018 flags it as an important narrative instance but not inherently its beginning. Its import prevents it from ocuppying the position of origin, at least as the text initially indicates. 
               </p>
 
-              <p id="a-01" class="after-heading">
-                <b>#01 -</b> (2022-05-10) | Composing a simple graph. I used a two-dimension graph to produce a different image from the aligned years. The X axis is the chronological novel timeline wih its Y axis grouping the chapter's sequential order. 
+              <p class="after-heading">
+                <b>Composing a simple graph.</b> (2022-05-10) | I used a two-dimension graph to produce a different image from the aligned years. The X axis is the chronological novel timeline wih its Y axis grouping the chapter's sequential order. 
               </p>
 
               <div class="row">
-                  <div class="col-sm-12 col-md-11 mx-auto" style="width: 60%;">
+                  <div class="col-sm-12 col-md-6 mx-auto" style="width: 50%;">
                       <figure class="figure">
                           <img src="~/assets/space-time/rosa-sketch-03.png" class="figure-img img-fluid">
                           <figcaption class="figure-caption">Figure 3. Narrative temporal movement graph.</figcaption>
                       </figure>
                   </div>
 
-                  <div class="col-sm-12 col-md-10 mx-auto" style="width: 70%;">
+                  <div class="col-sm-12 col-md-6 mx-auto" style="width: 50%;">
                         <figure class="figure">
                             <img src="~/assets/space-time/rosa-sketch-04.png" class="figure-fluid img-fluid">
-                            <figcaption class="figure-caption">Figure 4. Using curved lines to represent how the narrative jumps across the chapters' timeline. Years are vertically aligned.</figcaption>
+                            <figcaption class="figure-caption">Figure 4.  Narrative temporal movement graph and time related in relation to the first narrative entrypoint: Chapter 1/ The Year 2028.</figcaption>
                         </figure>
                   </div>
               </div>
 
-              <p id="a-02" class="after-heading">
-                  <b>#02 -</b> (2022-05-12) | Listing textual objects that are meaningful for the novel's space-time construction.
+              <p>
+                After graphing the novel's timeline in relation to the sequence of the chapters, I identified the first chapter as the novel's present time to investigate how that would change a new perspective on the other chapters and also establish a direct relationship among them. Consequently, I decided to connect each time span marked by the chapters to each other. To do so, I signaled an additional temporal link based on the chapter that precedes and follows each one.
+              </p>
+
+              <div class="row">
+                  <div class="col-sm-12 col-md-6 mx-auto" style="width: 60%;">
+                      <figure class="figure">
+                          <img src="~/assets/space-time/rosa-sketch-06.png" class="figure-img img-fluid">
+                          <figcaption class="figure-caption">Figure 5. Narrative temporal movement graph.</figcaption>
+                      </figure>
+                  </div>
+              </div>
+              <p>
+                In addition to these connections, I assume that all chapters are also connected to the novel's present because all of the chapters are narrated mainly in the presents, as if they were all happening at the same time and not separated by several years or centuries.
+              </p>
+              <p>
+                Preliminar Insights: A bi-dimensional graph model is too simple to sufficiently represent the complex relationships between each chapters, but just the information from the index provides enough proof about the complex space-time conceptions that <i>Caja de fractales</i> has to offer.
+              </p>
+
+              <p class="after-heading">
+                  <b> Listing textual objects that are meaningful for the novel's space-time construction.</b> (2022-05-12) | The past/present/future relationships only become more complex by <i>Figure 5.</i>'s representation of the novel's time. If usual indicators of time like timelines don't have a lot to say about the experience of this dimension in the novel, what other elements might be helpful? <br/> As I was revising the text to verify the tense in which the narratives were told, I noticed several repeating elements throughout the story that made me believe perhaps the origin of the story isn't the fist chapter nor the year 2018, but 2701.
+              </p>
+
+               <div class="row">
+                  <div class="col-sm-12 col-md-6 mx-auto" style="width: 60%;">
+                      <figure class="figure">
+                          <img src="~/assets/space-time/rosa-sketch-05.png" class="figure-img img-fluid">
+                          <figcaption class="figure-caption">Figure 6. Narrative temporal movement graph.</figcaption>
+                      </figure>
+                  </div>
+              </div>
+
+              <p>
+                Preliminary Insights: I kept searching for repeating elements, fractals and patterns that could tell me something about structure. It was then when I noticed that in every chapter a person dies, except for the Chapter 4/ The Year 2701, where Alicia confuses the smurfs into letting her inside the cathedrals that had been closed off to humans for a long time. <i>Figure 6.</i> displays the timeline where I marked each and every death per chapter and, as I did so, I noticed that the one character who keeps appearing, albeit in different versions, throughout the entire text is Alice. She is also the only character that appears in 2701. Is it possible to think that the narrative and its rippled time notions where all initiated by Alice's entrance into the cathedral? Can the cathedral be seen as a time-travelling place?
               </p>
             </div>
       </div>
